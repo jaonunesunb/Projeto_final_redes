@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const BDApi = axios.create({
-  baseURL: "https://compile-back.herokuapp.com/",
+  baseURL: "https://git.heroku.com/bdtd-joao-zaqueu.git/",
   timeout: 5000,
   headers: {
     "Content-Type": "application/json",
